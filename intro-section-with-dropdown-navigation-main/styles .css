@@ -1,0 +1,63 @@
+.attribution { 
+    font-size: 11px; text-align: center; }
+.attribution a { 
+    
+    
+    color: hsl(228, 45%, 44%); }
+
+.dropdown-toggle ,.nav-link {
+    font-family: "Josefin Sans", serif; 
+    font-weight: 500 !important;
+    color: hsl(0, 0%, 41%) !important;
+}
+.btn-outline-success{
+    font-family: "Josefin Sans", serif; 
+    font-weight: 300 !important;
+    color: hsl(0, 0%, 41%) !important;
+    border: 1px solid hsl(0, 0%, 41%) !important;
+}
+.btn-outline-success:hover{
+    background-color:transparent !important;
+    color:hsl(0, 0%, 72%) !important;
+} 
+.inscri{
+    position: relative;
+}  
+.inscri .Login{
+    content: "";
+    position:absolute;
+    right: 140%;
+}
+.Login:not(:focus-visible){
+    outline:none !important;
+    border-color:transparent !important;   
+}
+.dropdown-toggle::after {
+    mask-image: url(./images/icon-arrow-down.svg);
+}
+.dropdown-toggle[aria-expanded="true"]::after {
+    mask-image: url(./images/icon-arrow-up.svg);
+    
+}
+.nav-link:hover{
+    color: hsl(0, 0%, 8%) !important;
+}
+.dropdown-menu{
+    text-align: center !important;
+    left: 0px !important;
+}
+h1{
+    
+    font-weight: 700 !important;
+    color: hsl(0, 0%, 8%) !important;
+    font-size: 100px !important;
+}
+p{
+    color:hsl(0, 0%, 41%)!important;
+    font-weight: 600 !important;
+    
+} 
+.imagesize{
+    width: 81.8%;
+    height: 88%;
+}
